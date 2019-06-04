@@ -19,8 +19,7 @@ Installation of libraries (using root user):
 Cloning the repository and compiling (use any user with the sudo group):
 
     cd
-    git clone https://github.com/merocoin/mero.git
-    cd Mero
+    git clone https://github.com/dud-man/mero-version-change
     ./autogen.sh
     ./configure
     sudo make install
@@ -45,7 +44,7 @@ Demon status:
 
 All binaries for different operating systems, you can download in the releases repository:
 
-https://github.com/merocoin/mero/releases
+https://github.com/dud-man/mero-version-change/releases
 
 P2P port: 14550, RPC port: 24550
 -
