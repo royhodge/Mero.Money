@@ -143,10 +143,10 @@ public:
         assert(hashGenesisBlock == uint256("000003fdf2754358f30407b7a37566dc2138dd93159a2a24a45bbdf57d77806b"));
         assert(genesis.hashMerkleRoot == uint256("a74181dfedb5fde7369e2422f09e3e35dfe4f8878351a9d254655e1c6e0cbb2b"));
 
-        vSeeds.push_back(CDNSSeedData("dns1.mero.network", "dns1.mero.network"));
-        vSeeds.push_back(CDNSSeedData("dns2.mero.network", "dns2.mero.network"));
-        vSeeds.push_back(CDNSSeedData("dns3.mero.network", "dns3.mero.network"));
-        vSeeds.push_back(CDNSSeedData("dns4.mero.network", "dns4.mero.network"));
+        vSeeds.push_back(CDNSSeedData("45.220.85.41", "185.87.49.62"));
+        vSeeds.push_back(CDNSSeedData("194.67.200.44", "208.69.150.9"));
+        vSeeds.push_back(CDNSSeedData("80.211.133.202", "178.128.67.208"));
+        vSeeds.push_back(CDNSSeedData("207.148.83.37", "80.211.92.251"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 110);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 18);
